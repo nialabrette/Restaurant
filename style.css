@@ -1,0 +1,185 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html {
+  font-size: 62.5%;
+}
+body {
+max-width: 1550px;
+margin: 0 auto;
+}
+nav {
+  font-size: 1.5rem;
+}
+a {
+  color: black;
+}
+.hero {
+  height: 80rem;
+  background-image: url(/Restaurant/Images/background.jpeg);
+  background-size: 100% 90rem;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+h1 {
+  font-size: 6rem;
+  font-family: 'Times New Roman', Times, serif;
+  width: 40%;
+  text-align: left;
+  padding-top: 10%;
+  margin-left: 5%;
+  margin-bottom: 10%;
+}
+.hero input {
+  width: 40%;
+  height: 7%;
+  margin-left: 5%;
+  margin-bottom: 10%;
+}
+.hero a {
+  font-size: 1.5rem;
+  padding: 16px 5px;
+  background-color: orange;
+  color: white;
+  border-radius: 2px;
+}
+
+.about-us {
+  height: 67rem;
+  text-align: left;
+  background-image: url(/Restaurant/Images/background-2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+}
+.about-small {
+  width: 45%;
+  margin-left: 38%;
+  padding-top: 10%;
+}
+.about-us span {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: orange;
+  margin-bottom: 20px;
+}
+.about-small p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding: 10px;
+}
+h2 {
+  font-size: 5rem;
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.about-small a {
+  padding: 15px 15px;
+  margin-top: 20px;
+  margin-left: 8px;
+  width: 27%;
+  font-size: 1.5rem;
+  color: white;
+  background-color: orange;
+  display: block;
+  border-radius: 3px;
+
+}
+.order-online span {
+  display: block;
+  text-align: center;
+  font-size: 2rem;
+  color: orange;
+  font-weight: bold;
+}
+.order-online h2 {
+  text-align: center;
+  font-size: 6.5rem;
+}
+.order-online ul {
+  text-align: center;
+  padding-top: 30px;
+}
+.order-online li {
+  font-size: 1.6rem;
+  padding: 20px 4%;
+}
+.order-online ul .breakfast {
+  color: orange;
+  border: solid 2px orange;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  padding: 5px 10px;
+}
+.dishes-one {
+  display: flex;
+  justify-content: space-around;
+  padding: 3%;
+}
+.dishes-one img, .dishes-two img {
+  width: 20%;
+  height: 300px;
+}
+.dishes-two {
+  display: flex;
+  justify-content: space-around;
+  padding: 3%;
+}
+.book-table {
+  text-align: center;
+  padding-top: 50px;
+}
+.book-table span {
+  display: block;
+  font-size: 1.5rem;
+  color: orange;
+}
+.book-table h2 {
+  font-size: 6rem;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+header nav {
+display: flex;
+justify-content: flex-end;
+margin-top: 10px;
+}
+
+li {
+  display: inline;
+  list-style-type: none;
+  padding: 20px;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+* {
+  outline: solid 2px red;
+}
